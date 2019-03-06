@@ -20,13 +20,12 @@ body {
 }
 
 .text {
-	background-color: rgba(255, 255, 255);
+	background-color: rgba(189, 189, 189);
 	font-family: 'Passion One', cursive;
-	font-size: 8vw; /* Responsive font size */
+	font-size: 9vw; /* Responsive font size */
 	font-weight: bold;
 	margin: 0 auto; /* Center the text container */
-	padding: 10px;
-	width: 1050px;
+	width: 1150px;
 	text-align: center; /* Center text */
 	position: absolute; /* Position text */
 	top: 50%; /* Position text in the middle */
