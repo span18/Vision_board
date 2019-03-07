@@ -16,16 +16,28 @@ body {
 .container {
 	background-image: url("../images/hero-image.jpg");
 	background-size: cover;
-	height: 750px;
+	background-repeat: no-repeat;
+	min-height: 800px;
+	background-attachment: fixed;
+}
+
+.containerOne {
+	background-image: url("../images/second-image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 800px;
+	background-attachment: fixed;
 }
 
 .text {
-	background-color: rgba(189, 189, 189);
+	background-color: rgba(255, 153, 0); /*189,189,189*/
 	font-family: 'Passion One', cursive;
+	/*letter-spacing: 1px;*/
 	font-size: 9vw; /* Responsive font size */
 	font-weight: bold;
+	border-radius: 10px;
 	margin: 0 auto; /* Center the text container */
-	width: 1150px;
+	width: 1100px;
 	text-align: center; /* Center text */
 	position: absolute; /* Position text */
 	top: 50%; /* Position text in the middle */
@@ -35,26 +47,17 @@ body {
 	}
 }
 
-.card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
+#white {
+	/*background-color: white;*/
+	font-size: 50px;
+	height: 1000px;
+	width: 100%;
+/*	padding-top: 20px;
+	padding-bottom: 50px;*/
 }
 
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-  padding: 2px 16px;
-}
-
-img {
-	width: 200px;
-	height: 200px;
-	
+p {
+	font-size: 30px;
 }
 
 
