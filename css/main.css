@@ -49,15 +49,22 @@ body {
 
 #white {
 	/*background-color: white;*/
-	font-size: 50px;
-	height: 1000px;
-	width: 100%;
+	/*font-size: 50px;*/
+	/*height: 1000px;*/
 /*	padding-top: 20px;
 	padding-bottom: 50px;*/
 }
 
+section {
+	width: 100%;
+	padding: 25px;
+}
+
 p {
-	font-size: 30px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 20px;
+	font-family: 'Fira Sans', sans-serif;
 }
 
 img {
