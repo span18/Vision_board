@@ -34,7 +34,7 @@ function move(e) {
 
 function drop() {
   // Revert to the default css style.
-  obj.style.background = '';
+ obj.style.background = '';
   // Remove the attached event from the element so it doesn't keep following your mouse. :)
   obj = false;
 }
